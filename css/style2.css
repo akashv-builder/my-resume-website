@@ -1,133 +1,146 @@
-#menu li{
+
+#me{
 		float: left;
 		margin: 10px;
 		padding: 2px;
+		
+		font-size: 20px;
+		
+		color: black;
+	}
+
+	#me{
+		list-style-type: none; 
 		border: 1px solid;
-		font-size: 20px;
+		border-right: none;
+		border-left: none;
+		width: 70%;
 		border-color: darkblue;
 	}
-	#menu2 li{
-		float: left;
-		margin: 20px;
-		padding: 2px;
+	/*li{
+		display: inline;
+	}*/
+
+
+
+	h1{
+		width:50% ;
+		font-size: 40px;
+		margin-bottom: 0; 
+		
+
+	}
+
+	h3{	
+		width: 50%;
 		font-size: 20px;
-		border-color: darkblue;
-		position: relative;
-		bottom:150px;
-        left:150px;
+		
+
 	}
 
-	#tt{
-		background-color: #DC143C;
-		margin-top: 250px;
-		clear: both;
-		height: 250px;
-		color: white;
-		font-size: 30px;
-		text-transform: uppercase;
-	}
-
-#end{
-	margin-left: 300px; 
-}
-
-	
 	a{
 		text-decoration: none;
 		color: darkblue;
 	}
+
 	a:hover{
 		background-color: blue;
 		color: white;
+		padding: 7px;
 	}
-
-	h1{
-		
-		
-		margin-bottom: 5px;
-		text-align: center;
-		width: 1000px;
-		height: 7px;
-		margin-top: 40px;
-		font-size: 40px;
-
-	}
-	h3{
-		
-		margin-bottom: 0px;
-		text-align: center;
-		width: 950px;
-		font-size: 20px;
-		
-
+	#bit{
+		font-size: 50px;
+		margin-top: 0px;
+		padding: 0px;
 	}
 
 	h2{
 		
 		margin-bottom: 0px;
-		text-align: right ;
-		width: 1045px;
-		height: 15px;
-		font-size: 70px;
-		margin-top: 200px;
+		font-size: 60px;
+		padding: 0px;
+		margin: 0px;
 		
 
 	}
 
-	#l1{
-	color: white;
-}
-
-	
-
-	#main div{
- 	 float:left;
+#make{
+		font-size: 30px;
+		color: white;
+		
 	}
 
-	ul{
-		list-style-type: none; 
-		display: inline-block;
+	#hardwork{
+
+	
+		
+		font-size: 30px;
+		color: white;
+		
+	}
+
+#l1{
+	color: white;
+	text-align: center;
+	float: left;
+	
+}
+#l2{
+	color: white;
+	text-align: center;
+}
+	
+	footer{
+		height: 100px;
+		background-color: #4682B4;
 	}
 
 	body{
-		background-color: lightgray;
+		background-image: url("../images/dd.png");
+		background-size: 100%;
+		background-repeat: no-repeat; 
+		background-attachment: fixed;
 	}
-#titleresume{
 
-	margin-bottom: 5px;
-	margin-left: 50px;
-		text-align: center;
-		width: 1000px;
-		height: 7px;
-		margin-top: 40px;
-		font-size: 100px;
-		color: darkgrey;
-
-
+#p1{
+	padding: 20px;
 }
 
-#professional{
-
-margin-left: 385px; 
-
+hr{
+	background-color: black;
+	height: 1px;
+    border-top: 1px solid #ccc;
+  
 
 }
-#info{
-	font-size: 40px;
-}
+ul{
+	list-style-type: square;
+
+}	
+
+
+
 #details{
 	font-size: 30px;
 }
 	
 	table, th, td {
    border: 1px solid black;
-}
-ul.achieve{
-	list-style-type: square;
-
-}	
-#p1{
-	margin-right:20px; 
-	margin-top: 0px;
+   padding-left: 10px;
 }
 
+#ei,#pi,#award{
+	font-size: 20px;
+}
+table, th, td {
+   border: 1px solid black;
+}
+#info{
+	font-size: 40px;
+	color: #4682B4;
+}
+#foot{
+ text-align: center; 
+ color: white;
+
+}

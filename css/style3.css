@@ -1,151 +1,186 @@
 
-	#menu li{
+
+#me{
 		float: left;
 		margin: 10px;
 		padding: 2px;
-		border: 1px solid;
+		
 		font-size: 20px;
-		border-color: darkblue;
+		
+		color: black;
 	}
 
-	
+	#me{
+		list-style-type: none; 
+		border: 1px solid;
+		border-right: none;
+		border-left: none;
+		width: 70%;
+		border-color: darkblue;
+	}
+	/*li{
+		display: inline;
+	}*/
+
+
+
+	h1{
+		width:50% ;
+		font-size: 40px;
+		margin-bottom: 0; 
+		
+
+	}
+
+	h3{	
+		width: 50%;
+		font-size: 20px;
+		
+
+	}
+
 	a{
 		text-decoration: none;
 		color: darkblue;
 	}
-	a:hover{
+
+	#navigation a:hover{
 		background-color: blue;
 		color: white;
+		padding: 7px;
 	}
-
-	h1{
-		
-		
-		margin-bottom: 5px;
-		text-align: center;
-		width: 1000px;
-		height: 7px;
-		margin-top: 40px;
-		font-size: 40px;
-
-	}
-	h3{
-		
-		margin-bottom: 0px;
-		text-align: center;
-		width: 950px;
-		font-size: 20px;
-		
-
+	#bit{
+		font-size: 50px;
+		margin-top: 0px;
+		padding: 0px;
 	}
 
 	h2{
 		
 		margin-bottom: 0px;
-		text-align: right ;
-		width: 1045px;
-		height: 15px;
-		font-size: 70px;
-		margin-top: 200px;
+		font-size: 60px;
+		padding: 0px;
+		margin: 0px;
 		
 
 	}
 
-	
-
-	#main div{
- 	 float:left;
+#make{
+		font-size: 30px;
+		color: white;
+		
 	}
 
+	#hardwork{
 
-	ul{
-		list-style-type: none; 
-		display: inline-block;
+	
+		
+		font-size: 30px;
+		color: white;
+		
+	}
+
+#l1{
+	color: white;
+	text-align: center;
+	float: left;
+	
+}
+#l2{
+	color: white;
+	text-align: center;
+}
+	
+	footer{
+		height: 100px;
+		background-color: #4682B4;
 	}
 
 	body{
-		background-color: lightgray;
+		background-image: url("../images/dd.png");
+		background-size: 100%;
+		background-repeat: no-repeat; 
+		background-attachment: fixed;
 	}
 
-	#l1{
-	color: white;
+#p1{
+	padding: 20px;
 }
-#end{
-	margin-left: 300px; 
+
+hr{
+	background-color: black;
+	height: 1px;
+    border-top: 1px solid #ccc;
+  
+
+}
+ul{
+	list-style-type: square;
+
+}	
+
+
+
+#details{
+	font-size: 30px;
+}
+	
+	table, th, td {
+   border: 1px solid black;
+   padding-left: 10px;
+}
+
+#ei,#pi,#award{
+	font-size: 20px;
+}
+table, th, td {
+   border: 1px solid black;
+}
+#info{
+	font-size: 40px;
+	color: #4682B4;
+}
+#foot{
+ text-align: center; 
+ color: white;
+
 }
 
 #titlecontact{
-
-	margin-bottom: 5px;
-	margin-left: 50px;
-		text-align: center;
-		width: 1000px;
-		height: 7px;
-		margin-top: 40px;
 		font-size: 100px;
-		color: darkgrey;
+		color: #4682B4;
 
 
 }
 
-#menu2 li{
-		float: left;
-		margin: 20px;
-		padding: 2px;
-		font-size: 20px;
-		border-color: darkblue;
-		position: relative;
-		bottom:150px;
-        left:150px;
-	}
-
-	#tt{
-		background-color: #DC143C;
-		margin-top: 250px;
-		clear: both;
-		height: 250px;
-		color: white;
-		font-size: 30px;
-		text-transform: uppercase;
-	}
-	#p1{
-	margin-right:20px; 
-	margin-top: 0px;
-}
-#forminfo{
-	margin-left: 384px;
-	font-size: 60px;
-
-
-}
-
-#uname{
-	font-size: 30px;
-	background-color: #DC143C;
-	color: white;
-}
-
-#area{
-	font-size: 30px;
-	width: 379px;
-	height: 300px;
-	margin-top:20px; 
-	background-color: #DC143C;
-	color: white;
-}
-#forward{
-	margin-left: 93px;
-}
-		
-
-#submit{
-	font-size: 40px;
-	margin-left: 278px;
-	color: white;
-	background-color: skyblue;
-
-}
 ::placeholder { 
     color: white;
    
+}
+#submit{
+	font-size: 20px;
+	margin-left: 324px;
+	color: white;
+	background-color: skyblue;
+	margin-bottom: 90px;
+
+}
+#area{
+	font-size: 20px;
+	width: 379px;
+	height: 300px;
+	background-color: #DC143C;
+	color: white;
+}
+#uname{
+	font-size: 20px;
+	background-color: #DC143C;
+	color: white;
+	width: 380px;
+}
+
+#forward{
+	margin-top: 5px;
+	font-size: 18px;
+	font-family: arial;
 }
