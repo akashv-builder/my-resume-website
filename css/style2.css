@@ -118,16 +118,13 @@ ul{
 	font-size: 30px;
 }
 	
-	table, th, td {
-   border: 1px solid black;
-   padding-left: 10px;
-}
-
+	
 #ei,#pi,#award{
 	font-size: 20px;
 }
 table, th, td {
-   border: 1px solid black;
+   border: 2px solid black;
+    padding-left: 10px;
 }
 #info{
 	font-size: 40px;
@@ -137,4 +134,9 @@ table, th, td {
  text-align: center; 
  color: white;
 
+}
+#last{
+	
+	text-align: center;
+	 color: white;
 }
