@@ -1,77 +1,73 @@
 
 
 #me{
-		float: left;
-		margin: 10px;
-		padding: 2px;
-		
-		font-size: 20px;
-		
-		color: black;
-		list-style-type: none; 
-		border: 1px solid;
-		border-right: none;
-		border-left: none;
-		width: 70%;
-		border-color: darkblue;
+	float: left;
+	margin: 10px;
+	padding: 2px;
+	font-size: 20px;
+	color: black;
+	list-style-type: none; 
+	border: 1px solid;
+	border-right: none;
+	border-left: none;
+	width: 70%;
+	border-color: darkblue;
 	}
 
 	
 
 
-	h1{
-		width:50% ;
-		font-size: 40px;
-		margin-bottom: 0; 
+h1{
+	width:50% ;
+	font-size: 40px;
+	margin-bottom: 0; 
 		
 
 	}
 
-	h3{	
-		width: 50%;
-		font-size: 20px;
+h3{	
+	width: 50%;
+	font-size: 20px;
 		
 
 	}
 
-	a{
-		text-decoration: none;
-		color: darkblue;
+a{
+	text-decoration: none;
+	color: darkblue;
 	}
 
-	#navigation a:hover{
-		background-color: blue;
-		color: white;
-		padding: 7px;
+#navigation a:hover{
+	background-color: blue;
+	color: white;
+	padding: 7px;
 	}
-	#bit{
-		font-size: 50px;
-		margin-top: 0px;
-		padding: 0px;
+#bit{
+	font-size: 50px;
+	margin-top: 0px;
+	padding: 0px;
 	}
 
 	h2{
 		
-		margin-bottom: 0px;
-		font-size: 60px;
-		padding: 0px;
-		margin: 0px;
+	margin-bottom: 0px;
+	font-size: 60px;
+	padding: 0px;
+	margin: 0px;
 		
 
 	}
 
 #make{
-		font-size: 30px;
-		color: white;
+	font-size: 30px;
+	color: white;
 		
 	}
 
-	#hardwork{
+#hardwork{
 
-	
-		
-		font-size: 30px;
-		color: white;
+	font-size: 30px;
+	color: white;
 		
 	}
 
@@ -86,20 +82,27 @@
 	text-align: center;
 }
 	
-	footer{
-		height: 100px;
-		background-color: #4682B4;
+footer{
+	height: 100px;
+	background-color: #4682B4;
 	}
 
-	body{
-		background-image: url("../images/dd.png");
-		background-size: cover;
-		background-repeat: no-repeat; 
-		background-attachment: fixed;
+body{
+	background-image: url("../images/dd.png");
+	background-size: cover;
+	background-repeat: no-repeat; 
+	background-attachment: fixed;
 	}
 
 #p1{
 	padding: 20px;
+	height:30px;
+	width:30px;
+}
+#p2{
+	padding: 20px;
+	height:60px;
+	width:60px;
 }
 
 hr{
