@@ -71,16 +71,16 @@ h2{
 #make{
 	font-size: 30px;
 	color: white;
-	text-align: justify;
 	letter-spacing: 1px;
+
 	
 	}
 
 #hardwork{
 	font-size: 30px;
 	color: white;
-	text-align: justify;
 	letter-spacing: 1px;
+
 		
 	}
 
@@ -125,8 +125,6 @@ body{
 
 
 }
-marquee{
-	behavior:slide;
-	 direction:left; 
-	 scrollamount:30;
+.ani{
+	
 }
